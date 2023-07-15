@@ -1,16 +1,26 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
 }
-.list ul{
+
+.list ul {
     display: flex;
     gap: 30px;
 }
-.list li{
+
+.list li {
     list-style: none;
 
+}
+
+.list li a {
+    text-decoration: none;
 }
